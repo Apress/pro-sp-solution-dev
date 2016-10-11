@@ -1,0 +1,11 @@
+bin\Debug\CustomerDocumentsFeature.dll
+bin\Debug\CustomerDocumentsFeature.pdb
+bin\Debug\CustomerDocumentsFeature.xml
+bin\Debug\Microsoft.SharePoint.Search.dll
+bin\Debug\Microsoft.SharePoint.Search.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\CustomerDocumentsFeature.Resources.resources
+obj\Debug\CustomerDocumentsFeature.vbproj.GenerateResource.Cache
+obj\Debug\CustomerDocumentsFeature.dll
+obj\Debug\CustomerDocumentsFeature.xml
+obj\Debug\CustomerDocumentsFeature.pdb

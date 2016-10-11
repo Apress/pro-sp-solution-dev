@@ -1,0 +1,11 @@
+bin\Debug\PricingApp.exe.config
+bin\Debug\PricingApp.exe
+bin\Debug\PricingApp.pdb
+bin\Debug\PricingApp.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\PricingApp.Form1.resources
+obj\Debug\PricingApp.Resources.resources
+obj\Debug\PricingApp.vbproj.GenerateResource.Cache
+obj\Debug\PricingApp.exe
+obj\Debug\PricingApp.xml
+obj\Debug\PricingApp.pdb

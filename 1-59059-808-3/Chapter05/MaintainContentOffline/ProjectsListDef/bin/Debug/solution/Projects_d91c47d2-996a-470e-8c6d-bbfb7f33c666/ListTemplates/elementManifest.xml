@@ -1,0 +1,3 @@
+﻿<Elements  xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListTemplate  Name="Projects" Type="1001" BaseType="0" OnQuickLaunch="TRUE" SecurityBits="11" Sequence="410" DisplayName="Projects" Description="" Image="/_layouts/images/itgen.gif" />
+</Elements>

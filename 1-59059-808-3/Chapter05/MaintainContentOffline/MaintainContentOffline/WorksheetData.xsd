@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="WorksheetData" targetNamespace="http://tempuri.org/WorksheetData.xsd" xmlns:mstns="http://tempuri.org/WorksheetData.xsd" xmlns="http://tempuri.org/WorksheetData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="WorksheetData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="WorksheetData" msprop:Generator_DataSetName="WorksheetData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Settings" msprop:Generator_UserTableName="Settings" msprop:Generator_RowDeletedName="SettingsRowDeleted" msprop:Generator_RowChangedName="SettingsRowChanged" msprop:Generator_RowClassName="SettingsRow" msprop:Generator_RowChangingName="SettingsRowChanging" msprop:Generator_RowEvArgName="SettingsRowChangeEvent" msprop:Generator_RowEvHandlerName="SettingsRowChangeEventHandler" msprop:Generator_TableClassName="SettingsDataTable" msprop:Generator_TableVarName="tableSettings" msprop:Generator_RowDeletingName="SettingsRowDeleting" msprop:Generator_TablePropName="Settings">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FieldName" msprop:Generator_UserColumnName="FieldName" msprop:Generator_ColumnVarNameInTable="columnFieldName" msprop:Generator_ColumnPropNameInRow="FieldName" msprop:Generator_ColumnPropNameInTable="FieldNameColumn" type="xs:string" />
+              <xs:element name="FieldValue" msprop:Generator_UserColumnName="FieldValue" msprop:Generator_ColumnVarNameInTable="columnFieldValue" msprop:Generator_ColumnPropNameInRow="FieldValue" msprop:Generator_ColumnPropNameInTable="FieldValueColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Projects" msprop:Generator_UserTableName="Projects" msprop:Generator_RowDeletedName="ProjectsRowDeleted" msprop:Generator_RowChangedName="ProjectsRowChanged" msprop:Generator_RowClassName="ProjectsRow" msprop:Generator_RowChangingName="ProjectsRowChanging" msprop:Generator_RowEvArgName="ProjectsRowChangeEvent" msprop:Generator_RowEvHandlerName="ProjectsRowChangeEventHandler" msprop:Generator_TableClassName="ProjectsDataTable" msprop:Generator_TableVarName="tableProjects" msprop:Generator_RowDeletingName="ProjectsRowDeleting" msprop:Generator_TablePropName="Projects">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ConnectionName" msprop:Generator_UserColumnName="ConnectionName" msprop:Generator_ColumnVarNameInTable="columnConnectionName" msprop:Generator_ColumnPropNameInRow="ConnectionName" msprop:Generator_ColumnPropNameInTable="ConnectionNameColumn" type="xs:string" />
+              <xs:element name="ListItemID" msprop:Generator_UserColumnName="ListItemID" msprop:Generator_ColumnVarNameInTable="columnListItemID" msprop:Generator_ColumnPropNameInRow="ListItemID" msprop:Generator_ColumnPropNameInTable="ListItemIDColumn" type="xs:int" />
+              <xs:element name="Title" msprop:Generator_UserColumnName="Title" msprop:Generator_ColumnVarNameInTable="columnTitle" msprop:Generator_ColumnPropNameInRow="Title" msprop:Generator_ColumnPropNameInTable="TitleColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ProjectNumber" msprop:Generator_UserColumnName="ProjectNumber" msprop:Generator_ColumnVarNameInTable="columnProjectNumber" msprop:Generator_ColumnPropNameInRow="ProjectNumber" msprop:Generator_ColumnPropNameInTable="ProjectNumberColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="StartDate" msprop:Generator_UserColumnName="StartDate" msprop:Generator_ColumnVarNameInTable="columnStartDate" msprop:Generator_ColumnPropNameInRow="StartDate" msprop:Generator_ColumnPropNameInTable="StartDateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Budget" msprop:Generator_UserColumnName="Budget" msprop:Generator_ColumnVarNameInTable="columnBudget" msprop:Generator_ColumnPropNameInRow="Budget" msprop:Generator_ColumnPropNameInTable="BudgetColumn" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Lists" msprop:Generator_UserTableName="Lists" msprop:Generator_RowDeletedName="ListsRowDeleted" msprop:Generator_RowChangedName="ListsRowChanged" msprop:Generator_RowClassName="ListsRow" msprop:Generator_RowChangingName="ListsRowChanging" msprop:Generator_RowEvArgName="ListsRowChangeEvent" msprop:Generator_RowEvHandlerName="ListsRowChangeEventHandler" msprop:Generator_TableClassName="ListsDataTable" msprop:Generator_TableVarName="tableLists" msprop:Generator_RowDeletingName="ListsRowDeleting" msprop:Generator_TablePropName="Lists">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ListName" msprop:Generator_UserColumnName="ListName" msprop:Generator_ColumnVarNameInTable="columnListName" msprop:Generator_ColumnPropNameInRow="ListName" msprop:Generator_ColumnPropNameInTable="ListNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Url" msprop:Generator_UserColumnName="Url" msprop:Generator_ColumnVarNameInTable="columnUrl" msprop:Generator_ColumnPropNameInRow="Url" msprop:Generator_ColumnPropNameInTable="UrlColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="LastModified" msprop:Generator_UserColumnName="LastModified" msprop:Generator_ColumnVarNameInTable="columnLastModified" msprop:Generator_ColumnPropNameInRow="LastModified" msprop:Generator_ColumnPropNameInTable="LastModifiedColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ConnectionName" msprop:Generator_UserColumnName="ConnectionName" msprop:Generator_ColumnVarNameInTable="columnConnectionName" msprop:Generator_ColumnPropNameInRow="ConnectionName" msprop:Generator_ColumnPropNameInTable="ConnectionNameColumn" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Settings" />
+      <xs:field xpath="mstns:FieldName" />
+    </xs:unique>
+    <xs:unique name="Projects_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Projects" />
+      <xs:field xpath="mstns:ConnectionName" />
+      <xs:field xpath="mstns:ListItemID" />
+    </xs:unique>
+    <xs:unique name="Lists_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Lists" />
+      <xs:field xpath="mstns:ConnectionName" />
+    </xs:unique>
+    <xs:keyref name="FK_Lists_Projects" refer="Lists_Constraint1" msprop:rel_Generator_UserRelationName="FK_Lists_Projects" msprop:rel_Generator_RelationVarName="relationFK_Lists_Projects" msprop:rel_Generator_UserChildTable="Projects" msprop:rel_Generator_UserParentTable="Lists" msprop:rel_Generator_ParentPropName="ListsRow" msprop:rel_Generator_ChildPropName="GetProjectsRows">
+      <xs:selector xpath=".//mstns:Projects" />
+      <xs:field xpath="mstns:ConnectionName" />
+    </xs:keyref>
+  </xs:element>
+</xs:schema>

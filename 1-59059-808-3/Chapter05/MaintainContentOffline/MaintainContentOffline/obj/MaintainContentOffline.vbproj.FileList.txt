@@ -1,0 +1,16 @@
+bin\Debug\MaintainContentOffline.dll
+bin\Debug\MaintainContentOffline.pdb
+bin\Debug\Projects.xls
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\MaintainContentOffline.vbproj.ResolveComReference.cache
+obj\Debug\MaintainContentOffline.MaintainSites.resources
+obj\Debug\MaintainContentOffline.TaskPaneBody.resources
+obj\Debug\MaintainContentOffline.TaskPaneFooter.resources
+obj\Debug\MaintainContentOffline.TaskPaneHeader.resources
+obj\Debug\MaintainContentOffline.Resources.resources
+obj\Debug\MaintainContentOffline.vbproj.GenerateResource.Cache
+obj\Debug\MaintainContentOffline.dll
+obj\Debug\MaintainContentOffline.pdb
+obj\Debug\MaintainContentOffline.Sheet1.resources
+bin\Debug\MaintainContentOffline.dll.config
+obj\Debug\MaintainContentOffline.SyncOptions.resources

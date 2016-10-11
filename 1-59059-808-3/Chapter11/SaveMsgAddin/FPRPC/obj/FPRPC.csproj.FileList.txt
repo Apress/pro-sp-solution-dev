@@ -1,0 +1,5 @@
+bin\Debug\FPRPC.dll
+bin\Debug\FPRPC.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\FPRPC.dll
+obj\Debug\FPRPC.pdb

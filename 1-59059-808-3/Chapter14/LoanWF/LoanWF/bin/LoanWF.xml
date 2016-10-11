@@ -1,0 +1,57 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+LoanWF
+</name>
+</assembly>
+<members>
+<member name="M:LoanWF.BankWS.BankWS.#ctor">
+	<remarks/>
+</member><member name="E:LoanWF.BankWS.BankWS.AddLoanAppCompleted">
+	<remarks/>
+</member><member name="M:LoanWF.BankWS.BankWS.AddLoanApp(LoanWF.BankWS.Loan)">
+	<remarks/>
+</member><member name="M:LoanWF.BankWS.BankWS.AddLoanAppAsync(LoanWF.BankWS.Loan)">
+	<remarks/>
+</member><member name="M:LoanWF.BankWS.BankWS.AddLoanAppAsync(LoanWF.BankWS.Loan,System.Object)">
+	<remarks/>
+</member><member name="M:LoanWF.BankWS.BankWS.CancelAsync(System.Object)">
+	<remarks/>
+</member><member name="T:LoanWF.BankWS.BankWS">
+	<remarks/>
+</member><member name="P:LoanWF.BankWS.Loan.SSN">
+	<remarks/>
+</member><member name="P:LoanWF.BankWS.Loan.FirstName">
+	<remarks/>
+</member><member name="P:LoanWF.BankWS.Loan.LastName">
+	<remarks/>
+</member><member name="P:LoanWF.BankWS.Loan.Street">
+	<remarks/>
+</member><member name="P:LoanWF.BankWS.Loan.City">
+	<remarks/>
+</member><member name="P:LoanWF.BankWS.Loan.State">
+	<remarks/>
+</member><member name="P:LoanWF.BankWS.Loan.Zip">
+	<remarks/>
+</member><member name="P:LoanWF.BankWS.Loan.Income">
+	<remarks/>
+</member><member name="P:LoanWF.BankWS.Loan.IncomeSpecified">
+	<remarks/>
+</member><member name="P:LoanWF.BankWS.Loan.LoanAmt">
+	<remarks/>
+</member><member name="P:LoanWF.BankWS.Loan.LoanAmtSpecified">
+	<remarks/>
+</member><member name="P:LoanWF.BankWS.Loan.myFields">
+	<remarks/>
+</member><member name="P:LoanWF.BankWS.Loan.AnyAttr">
+	<remarks/>
+</member><member name="T:LoanWF.BankWS.Loan">
+	<remarks/>
+</member><member name="T:LoanWF.BankWS.LoanMyFields">
+	<remarks/>
+</member><member name="T:LoanWF.BankWS.AddLoanAppCompletedEventHandler">
+	<remarks/>
+</member>
+</members>
+</doc>

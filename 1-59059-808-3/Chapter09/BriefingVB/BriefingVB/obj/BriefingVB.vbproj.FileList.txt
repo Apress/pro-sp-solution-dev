@@ -1,0 +1,16 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\BriefingVB.vbproj.ResolveComReference.cache
+obj\Debug\BriefingVB.Ribbon1.xml
+obj\Debug\BriefingVB.Resources.resources
+obj\Debug\BriefingVB.step1.resources
+obj\Debug\BriefingVB.step2.resources
+obj\Debug\BriefingVB.step3.resources
+obj\Debug\BriefingVB.step4.resources
+obj\Debug\BriefingVB.step5.resources
+obj\Debug\BriefingVB.vbproj.GenerateResource.Cache
+bin\Debug\BriefingVB.dll.config
+bin\Debug\BriefingVB.dll
+bin\Debug\BriefingVB.pdb
+bin\Debug\BriefingVB.dll.manifest
+obj\Debug\BriefingVB.dll
+obj\Debug\BriefingVB.pdb

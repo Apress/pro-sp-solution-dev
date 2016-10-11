@@ -1,0 +1,11 @@
+bin\Debug\BookWebParts.dll
+bin\Debug\BookWebParts.pdb
+bin\Debug\BookWebParts.xml
+bin\Debug\Microsoft.SharePoint.Search.dll
+bin\Debug\Microsoft.SharePoint.Search.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\BookWebParts.Resources.resources
+obj\Debug\BookWebParts.vbproj.GenerateResource.Cache
+obj\Debug\BookWebParts.dll
+obj\Debug\BookWebParts.xml
+obj\Debug\BookWebParts.pdb

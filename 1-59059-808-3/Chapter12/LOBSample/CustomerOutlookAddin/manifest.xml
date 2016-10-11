@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<FormRegion xmlns="http://schemas.microsoft.com/office/outlook/12/formregion.xsd">
+  <name>CustomerContactFormRegion</name>
+  <title>Customer Application</title>
+  <formRegionType>separate</formRegionType>
+  <showCompose>true</showCompose>
+  <showRead>true</showRead>
+  <showPreview>false</showPreview>
+  <hidden>true</hidden>
+  <addin>CustomerOutlookAddin</addin>
+  <version>1.0</version>
+</FormRegion>

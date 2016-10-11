@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Feature Id="E619C929-77D0-47f2-95EF-CE2721B79350" 
+    Title="Customer Documents Feature"
+    Description="This feature inserts customer contact data into provided document templates."
+    Version="1.0.0.0"
+    Scope="Web"
+    ReceiverAssembly="CustomerDocumentsFeature, Version=1.0.0.0, Culture=neutral, PublicKeyToken=45a2811e9ad438d2"
+    ReceiverClass="CustomerDocumentsFeature.CustomerDocumentsReceiver" 
+    Hidden="FALSE"
+    xmlns="http://schemas.microsoft.com/sharepoint/">
+
+  <ElementManifests>
+    <ElementManifest Location="actionElements.xml"/>
+    <ElementManifest Location="listElements.xml"/>
+  </ElementManifests>
+
+  <ActivationDependencies> 
+        <ActivationDependency FeatureId="00BFEA71-7E6D-4186-9BA8-C047AC750105"/> <!-- ContactsList Feature -->
+        <ActivationDependency FeatureId="00BFEA71-E717-4E80-AA17-D0C71B360101"/> <!-- DocumentLibrary Feature -->
+  </ActivationDependencies>
+</Feature>

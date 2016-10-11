@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Per Item Dropdown (ECB)-->
+  <CustomAction Id="DocumentSection.SplitAction" 
+		RegistrationType="FileType" 
+    RegistrationId="docx"
+		ImageUrl="/_layouts/images/ICDOC.GIF"
+		Location="EditControlBlock"
+		Sequence="225"
+		Title="Split Into Sections">
+    <UrlAction Url="~site/_layouts/SectionDocumentSplit.aspx?ItemId={ItemId}&amp;ListId={ListId}"/>
+  </CustomAction>
+  <CustomAction Id="DocumentSection.Merge" 
+		RegistrationType="List" 
+    RegistrationId="10001"
+		ImageUrl="/_layouts/images/ICDOC.GIF"
+		Location="Microsoft.SharePoint.StandardMenu"
+    GroupId="ActionsMenu"
+		Sequence="225"
+		Title="Merge Sections">
+    <UrlAction Url="~site/_layouts/SectionDocumentMerge.aspx?ListId={ListId}"/>
+  </CustomAction>
+</Elements>

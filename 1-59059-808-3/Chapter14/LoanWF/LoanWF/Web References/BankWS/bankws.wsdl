@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s1="http://schemas.microsoft.com/office/infopath/2003/myXSD/2007-01-21T17:56:39" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:import namespace="http://schemas.microsoft.com/office/infopath/2003/myXSD/2007-01-21T17:56:39" />
+      <s:element name="AddLoanApp">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" ref="s1:Loan" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AddLoanAppResponse">
+        <s:complexType />
+      </s:element>
+    </s:schema>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://schemas.microsoft.com/office/infopath/2003/myXSD/2007-01-21T17:56:39">
+      <s:element name="Loan">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SSN" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="FirstName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="LastName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Street" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="City" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="State" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Zip" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Income" nillable="true" type="s:double" />
+            <s:element minOccurs="0" maxOccurs="1" name="LoanAmt" nillable="true" type="s:double" />
+            <s:element minOccurs="0" maxOccurs="1" name="myFields">
+              <s:complexType />
+            </s:element>
+          </s:sequence>
+          <s:anyAttribute />
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="AddLoanAppSoapIn">
+    <wsdl:part name="parameters" element="tns:AddLoanApp" />
+  </wsdl:message>
+  <wsdl:message name="AddLoanAppSoapOut">
+    <wsdl:part name="parameters" element="tns:AddLoanAppResponse" />
+  </wsdl:message>
+  <wsdl:portType name="BankWSSoap">
+    <wsdl:operation name="AddLoanApp">
+      <wsdl:input message="tns:AddLoanAppSoapIn" />
+      <wsdl:output message="tns:AddLoanAppSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BankWSSoap" type="tns:BankWSSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="AddLoanApp">
+      <soap:operation soapAction="http://tempuri.org/AddLoanApp" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="BankWSSoap12" type="tns:BankWSSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="AddLoanApp">
+      <soap12:operation soapAction="http://tempuri.org/AddLoanApp" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="BankWS">
+    <wsdl:port name="BankWSSoap" binding="tns:BankWSSoap">
+      <soap:address location="http://services.sample.com/bankws.asmx" />
+    </wsdl:port>
+    <wsdl:port name="BankWSSoap12" binding="tns:BankWSSoap12">
+      <soap12:address location="http://services.sample.com/bankws.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

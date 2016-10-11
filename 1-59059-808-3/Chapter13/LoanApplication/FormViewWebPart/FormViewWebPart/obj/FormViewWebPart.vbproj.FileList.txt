@@ -1,0 +1,12 @@
+bin\Debug\FormViewWebPart.dll
+bin\Debug\FormViewWebPart.pdb
+bin\Debug\FormViewWebPart.xml
+bin\Debug\Microsoft.SharePoint.Search.dll
+bin\Debug\Microsoft.Office.Server.Search.dll
+bin\Debug\Microsoft.SharePoint.Search.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\FormViewWebPart.Resources.resources
+obj\Debug\FormViewWebPart.vbproj.GenerateResource.Cache
+obj\Debug\FormViewWebPart.dll
+obj\Debug\FormViewWebPart.xml
+obj\Debug\FormViewWebPart.pdb

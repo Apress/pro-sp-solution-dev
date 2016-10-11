@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Feature Id="5FC9A8B0-5EF4-46b6-9B82-4DAB2E4B8448" 
+    Title="Document Section Feature"
+    Description="This feature supports splitting a document into its sections and merging them back together."
+    Version="1.0.0.0"
+    Scope="Web"
+    ReceiverAssembly="DocumentSectionFeature, Version=1.0.0.0, Culture=neutral, PublicKeyToken=45a2811e9ad438d2"
+    ReceiverClass="DocumentSectionFeature.DocumentSectionReceiver" 
+    Hidden="FALSE"
+    xmlns="http://schemas.microsoft.com/sharepoint/">
+
+  <ElementManifests>
+    <ElementManifest Location="actionElements.xml"/>
+    <ElementManifest Location="ListTemplates/sectionLibrary.xml"/>
+  </ElementManifests>
+
+  <ActivationDependencies> 
+        <ActivationDependency FeatureId="00BFEA71-E717-4E80-AA17-D0C71B360101"/> <!-- DocumentLibrary Feature -->
+  </ActivationDependencies>
+</Feature>

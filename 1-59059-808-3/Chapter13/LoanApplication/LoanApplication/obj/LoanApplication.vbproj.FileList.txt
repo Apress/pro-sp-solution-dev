@@ -1,0 +1,6 @@
+.\bin\Debug\LoanApplication.dll
+.\bin\Debug\LoanApplication.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\LoanApplication.dll
+obj\Debug\LoanApplication.pdb
+.\bin\Debug\LoanApplication.dll.config

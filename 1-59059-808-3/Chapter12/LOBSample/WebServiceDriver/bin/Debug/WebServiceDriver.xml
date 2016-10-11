@@ -1,0 +1,31 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+WebServiceDriver
+</name>
+</assembly>
+<members>
+<member name="M:WebServiceDriver.BDCWebService.BDCService.#ctor">
+	<remarks/>
+</member><member name="E:WebServiceDriver.BDCWebService.BDCService.GetEntitySpecificFinderCompleted">
+	<remarks/>
+</member><member name="M:WebServiceDriver.BDCWebService.BDCService.GetEntitySpecificFinder(System.String,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:WebServiceDriver.BDCWebService.BDCService.GetEntitySpecificFinderAsync(System.String,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:WebServiceDriver.BDCWebService.BDCService.GetEntitySpecificFinderAsync(System.String,System.String,System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:WebServiceDriver.BDCWebService.BDCService.CancelAsync(System.Object)">
+	<remarks/>
+</member><member name="T:WebServiceDriver.BDCWebService.BDCService">
+	<remarks/>
+</member><member name="T:WebServiceDriver.BDCWebService.GetEntitySpecificFinderCompletedEventHandler">
+	<remarks/>
+</member><member name="P:WebServiceDriver.BDCWebService.GetEntitySpecificFinderCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:WebServiceDriver.BDCWebService.GetEntitySpecificFinderCompletedEventArgs">
+	<remarks/>
+</member>
+</members>
+</doc>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListTemplate Name="SectionsLibrary" Type="10001" BaseType="1" SecurityBits="11"
+                DisplayName="Document Sections Library" OnQuickLaunch="TRUE"
+                Unique="FALSE" Image="/_layouts/images/itdl.gif"
+                Description="Stores sections of a document as individual files"
+                DocumentTemplate="101" />
+  
+</Elements>

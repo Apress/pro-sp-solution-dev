@@ -1,0 +1,72 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ProductPricingCalc", "ProductPricingCalc\ProductPricingCalc.vbproj", "{28FBB96A-1F2A-402B-B094-FFC918B357E6}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "C:\...\TestShippingService\", "TestShippingService\", "{63165732-4896-44E3-8A6E-7CCE3067930E}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.VirtualPath = "/TestShippingService"
+		Debug.AspNetCompiler.PhysicalPath = "TestShippingService\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\TestShippingService\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/TestShippingService"
+		Release.AspNetCompiler.PhysicalPath = "TestShippingService\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\TestShippingService\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1180"
+		DefaultWebSiteLanguage = "Visual Basic"
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "PricingApp", "PricingApp\PricingApp.vbproj", "{817DF39F-34FB-4D73-816B-C491F4162A92}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Release|.NET = Release|.NET
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28FBB96A-1F2A-402B-B094-FFC918B357E6}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{28FBB96A-1F2A-402B-B094-FFC918B357E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28FBB96A-1F2A-402B-B094-FFC918B357E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28FBB96A-1F2A-402B-B094-FFC918B357E6}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{28FBB96A-1F2A-402B-B094-FFC918B357E6}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{28FBB96A-1F2A-402B-B094-FFC918B357E6}.Release|.NET.ActiveCfg = Release|Any CPU
+		{28FBB96A-1F2A-402B-B094-FFC918B357E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28FBB96A-1F2A-402B-B094-FFC918B357E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28FBB96A-1F2A-402B-B094-FFC918B357E6}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{28FBB96A-1F2A-402B-B094-FFC918B357E6}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{63165732-4896-44E3-8A6E-7CCE3067930E}.Debug|.NET.ActiveCfg = Debug|.NET
+		{63165732-4896-44E3-8A6E-7CCE3067930E}.Debug|.NET.Build.0 = Debug|.NET
+		{63165732-4896-44E3-8A6E-7CCE3067930E}.Debug|Any CPU.ActiveCfg = Debug|.NET
+		{63165732-4896-44E3-8A6E-7CCE3067930E}.Debug|Mixed Platforms.ActiveCfg = Debug|.NET
+		{63165732-4896-44E3-8A6E-7CCE3067930E}.Debug|Mixed Platforms.Build.0 = Debug|.NET
+		{63165732-4896-44E3-8A6E-7CCE3067930E}.Release|.NET.ActiveCfg = Debug|.NET
+		{63165732-4896-44E3-8A6E-7CCE3067930E}.Release|.NET.Build.0 = Debug|.NET
+		{63165732-4896-44E3-8A6E-7CCE3067930E}.Release|Any CPU.ActiveCfg = Debug|.NET
+		{63165732-4896-44E3-8A6E-7CCE3067930E}.Release|Mixed Platforms.ActiveCfg = Debug|.NET
+		{63165732-4896-44E3-8A6E-7CCE3067930E}.Release|Mixed Platforms.Build.0 = Debug|.NET
+		{817DF39F-34FB-4D73-816B-C491F4162A92}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{817DF39F-34FB-4D73-816B-C491F4162A92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{817DF39F-34FB-4D73-816B-C491F4162A92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{817DF39F-34FB-4D73-816B-C491F4162A92}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{817DF39F-34FB-4D73-816B-C491F4162A92}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{817DF39F-34FB-4D73-816B-C491F4162A92}.Release|.NET.ActiveCfg = Release|Any CPU
+		{817DF39F-34FB-4D73-816B-C491F4162A92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{817DF39F-34FB-4D73-816B-C491F4162A92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{817DF39F-34FB-4D73-816B-C491F4162A92}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{817DF39F-34FB-4D73-816B-C491F4162A92}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,17 @@
+<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui" onLoad="OnLoad">
+  <ribbon>
+    <tabs>
+      <tab idMso="TabAddIns">
+        <group id="MOSSApps"
+               label="SharePoint">
+          <toggleButton id="toggleButton1" 
+                        size="large"
+                        label="Briefing"
+                        screentip="Import SharePoint items to create a briefing"
+                        onAction="OnToggleButton1" 
+                        getImage="GetImage" />
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>

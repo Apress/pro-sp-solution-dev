@@ -1,0 +1,14 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\SaveMsgAddin.vbproj.ResolveComReference.cache
+obj\Debug\SaveMsgAddin.Resources.resources
+obj\Debug\SaveMsgAddin.ucTaskPane.resources
+obj\Debug\SaveMsgAddin.vbproj.GenerateResource.Cache
+bin\Debug\SaveMsgAddin.dll.config
+bin\Debug\SaveMsgAddin.dll
+bin\Debug\SaveMsgAddin.pdb
+bin\Debug\SaveMsgAddin.dll.manifest
+bin\Debug\FPRPC.dll
+bin\Debug\FPRPC.pdb
+obj\Debug\SaveMsgAddin.dll
+obj\Debug\SaveMsgAddin.pdb
+obj\Debug\SaveMsgAddin.Ribbon1.xml

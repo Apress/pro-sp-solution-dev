@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="PricingApp_ExcelWebService_ExcelService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://portal.sample.com/_vti_bin/excelservice.asmx</Value>
+    </Setting>
+    <Setting Name="WorkbookPath" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://portal.sample.com/SiteDirectory/dev2/Excel/product pricing calculator.xlsx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

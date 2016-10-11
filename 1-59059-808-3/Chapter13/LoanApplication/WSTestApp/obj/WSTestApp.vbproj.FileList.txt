@@ -1,0 +1,11 @@
+bin\Debug\WSTestApp.exe
+bin\Debug\WSTestApp.exe.config
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\WSTestApp.Form1.resources
+obj\Debug\WSTestApp.Resources.resources
+obj\Debug\WSTestApp.vbproj.GenerateResource.Cache
+bin\Debug\WSTestApp.pdb
+bin\Debug\WSTestApp.xml
+obj\Debug\WSTestApp.exe
+obj\Debug\WSTestApp.xml
+obj\Debug\WSTestApp.pdb

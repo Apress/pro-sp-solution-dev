@@ -1,0 +1,18 @@
+<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui" onLoad="OnLoad">
+  <ribbon>
+    <tabs>
+      <tab idMso="TabReadMessage">
+        <group id="SharePoint"
+               label="SharePoint">
+          <toggleButton id="toggleButton1" 
+                        size="large"
+                        label="Save"
+                        screentip="Save email or attachments to a SharePoint library"
+                        onAction="OnToggleButton1" 
+                        getImage="GetImage" 
+                        getPressed="GetPressed"/>
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>

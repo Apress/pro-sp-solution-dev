@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LobSystem 
+  xmlns="http://schemas.microsoft.com/office/2006/03/BusinessDataCatalog"
+  Type="Database"
+  Version="1.0.0.0"
+  Name="CustomerApplication">
+  <Properties>
+    <Property Name="WildcardCharacter" Type="System.String">%</Property>
+  </Properties>
+  <LobSystemInstances>
+    <LobSystemInstance Name="CustomerApplicationInstance">
+      <Properties>
+        <Property Name="AuthenticationMode" Type="System.String">RevertToSelf</Property>
+        <Property Name="DatabaseAccessProvider" Type="System.String">SqlServer</Property>
+        <Property Name="RdbConnection Data Source" Type="System.String">O12Beta2DC</Property>
+        <Property Name="RdbConnection Initial Catalog" Type="System.String">CustomerInfo</Property>
+        <Property Name="RdbConnection Integrated Security" Type="System.String">SSPI</Property>
+        <Property Name="RdbConnection Pooling" Type="System.String">true</Property>
+      </Properties>
+    </LobSystemInstance>
+  </LobSystemInstances>
+  <Entities>
+    <Entity EstimatedInstanceCount="1000" Name="SalesPeople">
+      <Properties>
+        <Property Name="Title" Type="System.String">EmailAddress</Property>
+      </Properties>
+      <Identifiers>
+        <Identifier Name="PersonID" TypeName="System.Int32" />
+      </Identifiers>
+      <Methods>
+        <Method Name="GetSalesPeople">
+          <Properties>
+            <Property Name="RdbCommandText" Type="System.String">GetSalesPeople</Property>
+            <Property Name="RdbCommandType" Type="System.String">StoredProcedure</Property>
+          </Properties>
+          <FilterDescriptors>
+            <FilterDescriptor Type="Wildcard" Name="EmailAddress">
+              <Properties>
+                <Property Name="UsedForDisambiguation" Type="System.Boolean">true</Property>
+              </Properties>
+            </FilterDescriptor>
+            <FilterDescriptor Type="Comparison" Name="PersonID">
+            </FilterDescriptor>
+          </FilterDescriptors>
+          <Parameters>
+            <Parameter Direction="In" Name="@PersonID">
+              <TypeDescriptor TypeName="System.Int32" AssociatedFilter="PersonID" Name="PersonID" IdentifierName="PersonID">
+                <DefaultValues>
+                  <DefaultValue MethodInstanceName="PersonFinderInstance" Type="System.Int32">0</DefaultValue>
+                  <DefaultValue MethodInstanceName="PersonSpecifcFinderInstance" Type="System.Int32">0</DefaultValue>
+                </DefaultValues>
+              </TypeDescriptor>
+            </Parameter>
+            <Parameter Direction="In" Name="@EmailAddress">
+              <TypeDescriptor TypeName="System.String" AssociatedFilter="EmailAddress" Name="EmailAddress">
+                <DefaultValues>
+                  <DefaultValue MethodInstanceName="PersonFinderInstance" Type="System.String">%</DefaultValue>
+                  <DefaultValue MethodInstanceName="PersonSpecifcFinderInstance" Type="System.String">%</DefaultValue>
+                </DefaultValues>
+              </TypeDescriptor>
+            </Parameter>
+            <Parameter Direction="Return" Name="SalesPeople">
+              <TypeDescriptor TypeName="System.Data.IDataReader, System.Data, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" IsCollection="true" Name="PeopleDataReader">
+                <TypeDescriptors>
+                  <TypeDescriptor TypeName="System.Data.IDataRecord, System.Data, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="PeopleDataRecord">
+                    <TypeDescriptors>
+                      <TypeDescriptor TypeName="System.Int32" IdentifierName="PersonID" Name="PersonID"></TypeDescriptor>
+                      <TypeDescriptor TypeName="System.String" Name="FirstName" />
+                      <TypeDescriptor TypeName="System.String" Name="LastName" />
+                      <TypeDescriptor TypeName="System.String" Name="EmailAddress" />
+                    </TypeDescriptors>
+                  </TypeDescriptor>
+                </TypeDescriptors>
+              </TypeDescriptor>
+            </Parameter>
+          </Parameters>
+          <MethodInstances>
+            <MethodInstance Name="PersonFinderInstance" Type="Finder" ReturnParameterName="SalesPeople"/>
+            <MethodInstance Name="PersonSpecifcFinderInstance" Type="SpecificFinder"  ReturnParameterName="SalesPeople"/>
+          </MethodInstances>
+        </Method>
+      </Methods>
+    </Entity>
+    <Entity EstimatedInstanceCount="1000" Name="Customer">
+      <Properties>
+        <Property Name="Title" Type="System.String">CompanyName</Property>
+      </Properties>
+      <Identifiers>
+        <Identifier Name="CustomerID" TypeName="System.Int32" />
+      </Identifiers>
+      <Methods>
+        <Method Name="GetCustomers">
+          <Properties>
+            <Property Name="RdbCommandText" Type="System.String">GetCustomers</Property>
+            <Property Name="RdbCommandType" Type="System.String">StoredProcedure</Property>
+          </Properties>
+          <FilterDescriptors>
+            <FilterDescriptor Type="Wildcard" Name="CompanyName">
+              <Properties>
+                <Property Name="UsedForDisambiguation" Type="System.Boolean">true</Property>
+              </Properties>
+            </FilterDescriptor>
+            <FilterDescriptor Type="Comparison" Name="CustomerID">
+            </FilterDescriptor>
+          </FilterDescriptors>
+          <Parameters>
+            <Parameter Direction="In" Name="@CustomerID">
+              <TypeDescriptor TypeName="System.Int32" AssociatedFilter="CustomerID" Name="CustomerID" IdentifierName="CustomerID">
+                <DefaultValues>
+                  <DefaultValue MethodInstanceName="CustomerFinderInstance" Type="System.Int32">0</DefaultValue>
+                  <DefaultValue MethodInstanceName="CustomerSpecifcFinderInstance" Type="System.Int32">0</DefaultValue>
+                </DefaultValues>
+              </TypeDescriptor>
+            </Parameter>
+            <Parameter Direction="In" Name="@CompanyName">
+              <TypeDescriptor TypeName="System.String" AssociatedFilter="CompanyName" Name="CompanyName">
+                <DefaultValues>
+                  <DefaultValue MethodInstanceName="CustomerFinderInstance" Type="System.String">%</DefaultValue>
+                  <DefaultValue MethodInstanceName="CustomerSpecifcFinderInstance" Type="System.String">%</DefaultValue>
+                </DefaultValues>
+              </TypeDescriptor>
+            </Parameter>
+            <Parameter Direction="Return" Name="Customers">
+              <TypeDescriptor TypeName="System.Data.IDataReader, System.Data, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" IsCollection="true" Name="CustomerDataReader">
+                <TypeDescriptors>
+                  <TypeDescriptor TypeName="System.Data.IDataRecord, System.Data, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="CustomerDataRecord">
+                    <TypeDescriptors>
+                      <TypeDescriptor TypeName="System.Int32" IdentifierName="CustomerID" Name="CustomerID"></TypeDescriptor>
+                      <TypeDescriptor TypeName="System.String" Name="CompanyName" />
+                      <TypeDescriptor TypeName="System.String" Name="Street" />
+                      <TypeDescriptor TypeName="System.String" Name="City" />
+                      <TypeDescriptor TypeName="System.String" Name="Zip" />
+                      <TypeDescriptor TypeName="System.String" Name="State" />
+                      <TypeDescriptor TypeName="System.DateTime" Name="CustomerSinceDate" />
+                    </TypeDescriptors>
+                  </TypeDescriptor>
+                </TypeDescriptors>
+              </TypeDescriptor>
+            </Parameter>
+          </Parameters>
+          <MethodInstances>
+            <MethodInstance Name="CustomerFinderInstance" Type="Finder" ReturnParameterName="Customers"/>
+            <MethodInstance Name="CustomerSpecifcFinderInstance" Type="SpecificFinder"  ReturnParameterName="Customers"/>
+          </MethodInstances>
+        </Method>
+        <Method Name="GetCustomerPeople">
+          <Properties>
+            <Property Name="RdbCommandText" Type="System.String">GetCustomerPeople</Property>
+            <Property Name="RdbCommandType" Type="System.String">StoredProcedure</Property>
+          </Properties>
+          <Parameters>
+            <Parameter Direction="In" Name="@CustomerID">
+              <TypeDescriptor TypeName="System.Int32"  Name="CustomerID" IdentifierName="CustomerID" >
+              </TypeDescriptor>
+            </Parameter>
+            <Parameter Direction="Return" Name="SalesPeople">
+              <TypeDescriptor TypeName="System.Data.IDataReader, System.Data, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" IsCollection="true" Name="PeopleDataReader">
+                <TypeDescriptors>
+                  <TypeDescriptor TypeName="System.Data.IDataRecord, System.Data, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="PeopleDataRecord">
+                    <TypeDescriptors>
+                      <TypeDescriptor TypeName="System.Int32" IdentifierEntityName="SalesPeople"  IdentifierName="PersonID" Name="PersonID"></TypeDescriptor>
+                      <TypeDescriptor TypeName="System.String" Name="FirstName" />
+                      <TypeDescriptor TypeName="System.String" Name="LastName" />
+                      <TypeDescriptor TypeName="System.String" Name="EmailAddress" />
+                    </TypeDescriptors>
+                  </TypeDescriptor>
+                </TypeDescriptors>
+              </TypeDescriptor>
+            </Parameter>
+          </Parameters>
+        </Method>
+        <Method Name="CustomerIDEnumerator">
+          <Properties>
+            <Property Name="RdbCommandText" Type="System.String">GetCustomerIDs</Property>
+            <Property Name="RdbCommandType" Type="System.String">StoredProcedure</Property>
+          </Properties>
+          <Parameters>
+            <Parameter Name="CustomerIDs" Direction="Return">
+              <TypeDescriptor TypeName="System.Data.IDataReader, System.Data, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" IsCollection="true" Name="CustomerIds">
+                <TypeDescriptors>
+                  <TypeDescriptor TypeName="System.Data.IDataRecord, System.Data, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="CustomerIdRecord">
+                    <TypeDescriptors>
+                      <TypeDescriptor TypeName="System.Int32" IdentifierName="CustomerID" Name="CustomerID">
+                      </TypeDescriptor>
+                    </TypeDescriptors>
+                  </TypeDescriptor>
+                </TypeDescriptors>
+              </TypeDescriptor>
+            </Parameter>
+          </Parameters>
+          <MethodInstances>
+            <MethodInstance Name="CustomerIDEnumeratorInstance"  Type="IdEnumerator" ReturnParameterName="CustomerIDs" />
+          </MethodInstances>
+        </Method>
+      </Methods>
+    </Entity>
+  </Entities>
+  <Associations>
+    <Association AssociationMethodEntityName="Customer" AssociationMethodName="GetCustomerPeople" AssociationMethodReturnParameterName="SalesPeople" Name="CustomerToSalesPeople">
+      <SourceEntity Name="Customer"/>
+      <DestinationEntity Name="SalesPeople"/>
+    </Association>
+  </Associations>
+</LobSystem>
+
+

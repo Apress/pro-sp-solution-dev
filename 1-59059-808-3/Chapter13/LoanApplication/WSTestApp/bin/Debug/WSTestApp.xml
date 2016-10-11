@@ -1,0 +1,62 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+WSTestApp
+</name>
+</assembly>
+<members>
+<member name="M:WSTestApp.localhost.BankWS.#ctor">
+	<remarks/>
+</member><member name="E:WSTestApp.localhost.BankWS.AddLoanAppCompleted">
+	<remarks/>
+</member><member name="M:WSTestApp.localhost.BankWS.AddLoanApp(WSTestApp.localhost.Loan)">
+	<remarks/>
+</member><member name="M:WSTestApp.localhost.BankWS.AddLoanAppAsync(WSTestApp.localhost.Loan)">
+	<remarks/>
+</member><member name="M:WSTestApp.localhost.BankWS.AddLoanAppAsync(WSTestApp.localhost.Loan,System.Object)">
+	<remarks/>
+</member><member name="M:WSTestApp.localhost.BankWS.CancelAsync(System.Object)">
+	<remarks/>
+</member><member name="T:WSTestApp.localhost.BankWS">
+	<remarks/>
+</member><member name="P:WSTestApp.localhost.Loan.SSN">
+	<remarks/>
+</member><member name="P:WSTestApp.localhost.Loan.FirstName">
+	<remarks/>
+</member><member name="P:WSTestApp.localhost.Loan.LastName">
+	<remarks/>
+</member><member name="P:WSTestApp.localhost.Loan.Street">
+	<remarks/>
+</member><member name="P:WSTestApp.localhost.Loan.City">
+	<remarks/>
+</member><member name="P:WSTestApp.localhost.Loan.State">
+	<remarks/>
+</member><member name="P:WSTestApp.localhost.Loan.Zip">
+	<remarks/>
+</member><member name="P:WSTestApp.localhost.Loan.Income">
+	<remarks/>
+</member><member name="P:WSTestApp.localhost.Loan.IncomeSpecified">
+	<remarks/>
+</member><member name="P:WSTestApp.localhost.Loan.AnyAttr">
+	<remarks/>
+</member><member name="T:WSTestApp.localhost.Loan">
+	<remarks/>
+</member><member name="T:WSTestApp.localhost.AddLoanAppCompletedEventHandler">
+	<remarks/>
+</member><member name="P:WSTestApp.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:WSTestApp.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:WSTestApp.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

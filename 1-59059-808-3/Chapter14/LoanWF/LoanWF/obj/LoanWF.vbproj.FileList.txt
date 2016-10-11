@@ -1,0 +1,13 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\LoanWF.vbproj.GenerateResource.Cache
+bin\Microsoft.SharePoint.Search.dll
+bin\Microsoft.SharePoint.Search.xml
+obj\Debug\LoanWF.LoanWF.rules
+obj\Debug\LoanWF.LoanWF.resources
+bin\LoanWF.dll.config
+bin\LoanWF.dll
+bin\LoanWF.pdb
+bin\LoanWF.xml
+obj\Debug\LoanWF.dll
+obj\Debug\LoanWF.xml
+obj\Debug\LoanWF.pdb

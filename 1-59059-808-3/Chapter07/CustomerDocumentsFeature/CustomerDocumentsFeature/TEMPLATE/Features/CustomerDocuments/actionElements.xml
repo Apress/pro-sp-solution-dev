@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Per Item Dropdown (ECB)-->
+  <CustomAction Id="ECBItemToolbar" 
+		RegistrationType="List" 
+		RegistrationId="105"
+		ImageUrl="/_layouts/images/ICDOC.GIF"
+		Location="EditControlBlock"
+		Sequence="225"
+		Title="Build Customer Document">
+    <UrlAction Url="~site/_layouts/BuildCustomerDoc.aspx?ItemId={ItemId}&amp;ListId={ListId}"/>
+  </CustomAction>
+  
+</Elements>

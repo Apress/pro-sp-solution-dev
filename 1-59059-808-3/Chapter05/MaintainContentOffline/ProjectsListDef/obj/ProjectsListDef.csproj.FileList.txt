@@ -1,0 +1,4 @@
+bin\Debug\ProjectsListDef.dll
+bin\Debug\ProjectsListDef.pdb
+obj\Debug\ProjectsListDef.dll
+obj\Debug\ProjectsListDef.pdb

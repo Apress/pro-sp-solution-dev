@@ -1,0 +1,11 @@
+﻿<solution  id="53231d0d-021f-4ed6-8a90-234fee48af73" name="ProjectsListDef" >
+  <features>
+    <feature  id="d91c47d2-996a-470e-8c6d-bbfb7f33c666" name="Projects" title="Projects" description="" version="1.0.0.0" scope="Web" hidden="False" defaultresourcefile="core" >
+      <elementmanifest id="d91c47d2-996a-470e-8c6d-bbfb7f33c666" title="Projects" description="" type="1001" basetype="0" onquicklaunch="True" securitybits="11" sequence="410" image="/_layouts/images/itgen.gif" />
+    </feature>
+  </features>
+  <templates>
+  </templates>
+  <sitedefinitions>
+  </sitedefinitions>
+</solution>

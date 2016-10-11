@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance
+   Id="30001"
+   FeatureId="00BFEA71-7E6D-4186-9BA8-C047AC750105"
+   Description="Customer Contacts"
+   TemplateType="105"
+   Title="Customer Contacts"
+   OnQuickLaunch="TRUE"
+   QuickLaunchUrl="Customer Contacts/AllItems.aspx"
+   Url="Customer Contacts">
+    <Data/>
+  </ListInstance>
+  <ListInstance
+   Id="30002"
+   FeatureId="00BFEA71-E717-4E80-AA17-D0C71B360101"
+   Description="Customer Documents"
+   TemplateType="101"
+   Title="Customer Documents"
+   OnQuickLaunch="TRUE"
+   QuickLaunchUrl="Customer Documents/Forms/AllItems.aspx"
+   Url="Customer Documents">
+    <Data/>
+  </ListInstance>
+
+  <ContentTypeBinding
+    ContentTypeId="0x01010062D1E4330D68444195C9641FCAFCB2FB01" 
+    ListUrl="Customer Documents" 
+  />
+  <ContentTypeBinding
+    ContentTypeId="0x01010062D1E4330D68444195C9641FCAFCB2FB03" 
+    ListUrl="Customer Documents" 
+  />
+  <ContentTypeBinding
+    ContentTypeId="0x01010062D1E4330D68444195C9641FCAFCB2FB02" 
+    ListUrl="Customer Documents" 
+  />
+
+
+</Elements>

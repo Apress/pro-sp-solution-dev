@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xsd:schema targetNamespace="http://schemas.microsoft.com/office/infopath/2003/myXSD/2007-01-21T17:56:39" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dfs="http://schemas.microsoft.com/office/infopath/2003/dataFormSolution" xmlns:tns="http://tempuri.org/" xmlns:s1="http://schemas.microsoft.com/office/infopath/2003/myXSD/2007-01-21T14:35:58" xmlns:my="http://schemas.microsoft.com/office/infopath/2003/myXSD/2007-01-21T17:56:39" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<xsd:element name="Loan">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:SSN" minOccurs="0"/>
+				<xsd:element ref="my:FirstName" minOccurs="0"/>
+				<xsd:element ref="my:LastName" minOccurs="0"/>
+				<xsd:element ref="my:Street" minOccurs="0"/>
+				<xsd:element ref="my:City" minOccurs="0"/>
+				<xsd:element ref="my:State" minOccurs="0"/>
+				<xsd:element ref="my:Zip" minOccurs="0"/>
+				<xsd:element ref="my:Income" minOccurs="0"/>
+				<xsd:element ref="my:LoanAmt" minOccurs="0"/>
+				<xsd:element ref="my:myFields" minOccurs="0"/>
+			</xsd:sequence>
+			<xsd:anyAttribute processContents="lax" namespace="http://www.w3.org/XML/1998/namespace"/>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="SSN" type="xsd:string"/>
+	<xsd:element name="FirstName" type="xsd:string"/>
+	<xsd:element name="LastName" type="xsd:string"/>
+	<xsd:element name="Street" type="xsd:string"/>
+	<xsd:element name="City" type="xsd:string"/>
+	<xsd:element name="State" type="xsd:string"/>
+	<xsd:element name="Zip" type="xsd:string"/>
+	<xsd:element name="Income" nillable="true" type="xsd:double"/>
+	<xsd:element name="LoanAmt" nillable="true" type="xsd:double"/>
+	<xsd:element name="myFields">
+		<xsd:complexType>
+			<xsd:sequence/>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>

@@ -1,0 +1,14 @@
+bin\Debug\BDCServiceCode.dll
+bin\Debug\BDCServiceCode.pdb
+bin\Debug\BDCServiceCode.xml
+bin\Debug\Microsoft.SharePoint.Search.dll
+bin\Debug\Microsoft.Office.Server.Search.dll
+bin\Debug\Microsoft.SharePoint.Portal.SingleSignon.dll
+bin\Debug\Microsoft.SharePoint.Search.xml
+bin\Debug\ssocli.dll
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\BDCServiceCode.Resources.resources
+obj\Debug\BDCServiceCode.vbproj.GenerateResource.Cache
+obj\Debug\BDCServiceCode.dll
+obj\Debug\BDCServiceCode.xml
+obj\Debug\BDCServiceCode.pdb

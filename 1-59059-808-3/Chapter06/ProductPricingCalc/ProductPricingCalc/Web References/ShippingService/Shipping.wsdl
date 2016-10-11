@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="CalcShipping">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="startZipCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="endZipCode" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="totalWeight" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CalcShippingResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="CalcShippingResult" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="CalcShippingSoapIn">
+    <wsdl:part name="parameters" element="tns:CalcShipping" />
+  </wsdl:message>
+  <wsdl:message name="CalcShippingSoapOut">
+    <wsdl:part name="parameters" element="tns:CalcShippingResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ShippingSoap">
+    <wsdl:operation name="CalcShipping">
+      <wsdl:input message="tns:CalcShippingSoapIn" />
+      <wsdl:output message="tns:CalcShippingSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ShippingSoap" type="tns:ShippingSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="CalcShipping">
+      <soap:operation soapAction="http://tempuri.org/CalcShipping" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ShippingSoap12" type="tns:ShippingSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="CalcShipping">
+      <soap12:operation soapAction="http://tempuri.org/CalcShipping" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Shipping">
+    <wsdl:port name="ShippingSoap" binding="tns:ShippingSoap">
+      <soap:address location="http://localhost:1180/TestShippingService/Shipping.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ShippingSoap12" binding="tns:ShippingSoap12">
+      <soap12:address location="http://localhost:1180/TestShippingService/Shipping.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,10 @@
+﻿<Feature  Title="Projects" Id="d91c47d2-996a-470e-8c6d-bbfb7f33c666" Description="" Version="1.0.0.0" Scope="Web" Hidden="FALSE" DefaultResourceFile="core" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ElementManifests>
+    <ElementManifest Location="ListTemplates\elementManifest.xml" />
+    <ElementFile Location="Projects\schema.xml" />
+    <ElementFile Location="Projects\AllItems.aspx" />
+    <ElementFile Location="Projects\DispForm.aspx" />
+    <ElementFile Location="Projects\EditForm.aspx" />
+    <ElementFile Location="Projects\NewForm.aspx" />
+  </ElementManifests>
+</Feature>

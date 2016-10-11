@@ -1,0 +1,10 @@
+bin\Debug\WebServiceDriver.exe.config
+bin\Debug\WebServiceDriver.exe
+bin\Debug\WebServiceDriver.pdb
+bin\Debug\WebServiceDriver.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\WebServiceDriver.Resources.resources
+obj\Debug\WebServiceDriver.vbproj.GenerateResource.Cache
+obj\Debug\WebServiceDriver.exe
+obj\Debug\WebServiceDriver.xml
+obj\Debug\WebServiceDriver.pdb

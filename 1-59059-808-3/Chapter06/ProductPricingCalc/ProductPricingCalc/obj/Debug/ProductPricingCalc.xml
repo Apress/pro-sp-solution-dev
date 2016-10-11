@@ -1,0 +1,31 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ProductPricingCalc
+</name>
+</assembly>
+<members>
+<member name="M:ProductPricingCalc.ShippingService.Shipping.#ctor">
+	<remarks/>
+</member><member name="E:ProductPricingCalc.ShippingService.Shipping.CalcShippingCompleted">
+	<remarks/>
+</member><member name="M:ProductPricingCalc.ShippingService.Shipping.CalcShipping(System.String,System.String,System.Double)">
+	<remarks/>
+</member><member name="M:ProductPricingCalc.ShippingService.Shipping.CalcShippingAsync(System.String,System.String,System.Double)">
+	<remarks/>
+</member><member name="M:ProductPricingCalc.ShippingService.Shipping.CalcShippingAsync(System.String,System.String,System.Double,System.Object)">
+	<remarks/>
+</member><member name="M:ProductPricingCalc.ShippingService.Shipping.CancelAsync(System.Object)">
+	<remarks/>
+</member><member name="T:ProductPricingCalc.ShippingService.Shipping">
+	<remarks/>
+</member><member name="T:ProductPricingCalc.ShippingService.CalcShippingCompletedEventHandler">
+	<remarks/>
+</member><member name="P:ProductPricingCalc.ShippingService.CalcShippingCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:ProductPricingCalc.ShippingService.CalcShippingCompletedEventArgs">
+	<remarks/>
+</member>
+</members>
+</doc>

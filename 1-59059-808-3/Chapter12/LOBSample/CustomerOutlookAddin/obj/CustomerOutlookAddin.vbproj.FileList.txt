@@ -1,0 +1,11 @@
+bin\Debug\manifest.xml
+bin\Debug\CustomerOutlookAddin.dll
+bin\Debug\CustomerOutlookAddin.pdb
+bin\Debug\CustomerOutlookAddin.dll.manifest
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\CustomerOutlookAddin.vbproj.ResolveComReference.cache
+obj\Debug\CustomerOutlookAddin.Resources.resources
+obj\Debug\CustomerOutlookAddin.vbproj.GenerateResource.Cache
+obj\Debug\CustomerOutlookAddin.dll
+obj\Debug\CustomerOutlookAddin.pdb
+bin\Debug\CustomerOutlookAddin.dll.config

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="SectionedDocument" targetNamespace="http://tempuri.org/SectionedDocument.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/SectionedDocument.xsd" xmlns:mstns="http://tempuri.org/SectionedDocument.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Document" type="DocumentType">
+  </xs:element>
+  <xs:complexType name="DocumentType" mixed="true">
+    <xs:sequence>
+      <xs:element name="Section" minOccurs="1" maxOccurs="unbounded">
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

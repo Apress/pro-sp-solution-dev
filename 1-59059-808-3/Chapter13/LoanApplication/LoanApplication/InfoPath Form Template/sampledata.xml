@@ -1,0 +1,17 @@
+<my:Loan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dfs="http://schemas.microsoft.com/office/infopath/2003/dataFormSolution" xmlns:tns="http://tempuri.org/" xmlns:s1="http://schemas.microsoft.com/office/infopath/2003/myXSD/2007-01-21T14:35:58" xmlns:my="http://schemas.microsoft.com/office/infopath/2003/myXSD/2007-01-21T17:56:39" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003">
+	<my:SSN/>
+	<my:FirstName/>
+	<my:LastName/>
+	<my:Street/>
+	<my:City/>
+	<my:State/>
+	<my:Zip/>
+	<my:Income/>
+	<my:LoanAmt/>
+	<my:myFields/>
+	<xd:SchemaInfo LocalName="Loan" NamespaceURI="http://schemas.microsoft.com/office/infopath/2003/myXSD/2007-01-21T17:56:39">
+		<xd:Namespaces>
+			<xd:Namespace LocalName="Loan" NamespaceURI="http://schemas.microsoft.com/office/infopath/2003/myXSD/2007-01-21T17:56:39"/>
+		</xd:Namespaces>
+	</xd:SchemaInfo>
+</my:Loan>

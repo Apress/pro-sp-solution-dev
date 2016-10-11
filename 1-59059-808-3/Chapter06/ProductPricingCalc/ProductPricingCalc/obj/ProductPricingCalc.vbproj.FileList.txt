@@ -1,0 +1,10 @@
+bin\Debug\ProductPricingCalc.dll
+bin\Debug\ProductPricingCalc.pdb
+bin\Debug\ProductPricingCalc.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\ProductPricingCalc.Resources.resources
+obj\Debug\ProductPricingCalc.vbproj.GenerateResource.Cache
+obj\Debug\ProductPricingCalc.dll
+obj\Debug\ProductPricingCalc.xml
+obj\Debug\ProductPricingCalc.pdb
+bin\Debug\ProductPricingCalc.dll.config

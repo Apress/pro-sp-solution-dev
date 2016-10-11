@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This file is automatically created and modified by Microsoft Office InfoPath.
+Changes made to the file outside of InfoPath might be lost if the form template is modified in InfoPath.
+-->
+<xsf:xDocumentClass trustSetting="automatic" solutionFormatVersion="2.0.0.0" solutionVersion="1.0.0.68" productVersion="12.0.0" name="urn:schemas-microsoft-com:office:infopath:LoanApplication:-myXSD-2007-01-21T17-56-39" xmlns:xsf="http://schemas.microsoft.com/office/infopath/2003/solutionDefinition" xmlns:xsf2="http://schemas.microsoft.com/office/infopath/2006/solutionDefinition/extensions" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xdUtil="http://schemas.microsoft.com/office/infopath/2003/xslt/Util" xmlns:xdXDocument="http://schemas.microsoft.com/office/infopath/2003/xslt/xDocument" xmlns:xdMath="http://schemas.microsoft.com/office/infopath/2003/xslt/Math" xmlns:xdDate="http://schemas.microsoft.com/office/infopath/2003/xslt/Date" xmlns:xdExtension="http://schemas.microsoft.com/office/infopath/2003/xslt/extension" xmlns:xdEnvironment="http://schemas.microsoft.com/office/infopath/2006/xslt/environment" xmlns:xdUser="http://schemas.microsoft.com/office/infopath/2006/xslt/User" xmlns:my="http://schemas.microsoft.com/office/infopath/2003/myXSD/2007-01-21T17:56:39" xmlns:dfs="http://schemas.microsoft.com/office/infopath/2003/dataFormSolution" xmlns:tns="http://tempuri.org/" xmlns:s1="http://schemas.microsoft.com/office/infopath/2003/myXSD/2007-01-21T14:35:58">
+	<xsf:package>
+		<xsf:files>
+			<xsf:file name="myschema.xsd">
+				<xsf:fileProperties>
+					<xsf:property name="namespace" type="string" value="http://schemas.microsoft.com/office/infopath/2003/myXSD/2007-01-21T17:56:39"></xsf:property>
+					<xsf:property name="editability" type="string" value="full"></xsf:property>
+					<xsf:property name="rootElement" type="string" value="Loan"></xsf:property>
+					<xsf:property name="useOnDemandAlgorithm" type="string" value="yes"></xsf:property>
+				</xsf:fileProperties>
+			</xsf:file>
+			<xsf:file name="template.xml"></xsf:file>
+			<xsf:file name="sampledata.xml">
+				<xsf:fileProperties>
+					<xsf:property name="fileType" type="string" value="sampleData"></xsf:property>
+				</xsf:fileProperties>
+			</xsf:file>
+			<xsf:file name="view1.xsl">
+				<xsf:fileProperties>
+					<xsf:property name="lang" type="string" value="1033"></xsf:property>
+					<xsf:property name="mode" type="string" value="2"></xsf:property>
+					<xsf:property name="componentId" type="string" value="15"></xsf:property>
+					<xsf:property name="xmlToEditName" type="string" value="19"></xsf:property>
+				</xsf:fileProperties>
+			</xsf:file>
+			<xsf:file name="upgrade.xsl"></xsf:file>
+			<xsf:file name="LoanApplication.dll">
+				<xsf:fileProperties>
+					<xsf:property name="fileType" type="string" value="rootAssembly"></xsf:property>
+				</xsf:fileProperties>
+			</xsf:file>
+			<xsf:file name="LoanApplication.pdb">
+				<xsf:fileProperties>
+					<xsf:property name="fileType" type="string" value="pdb"></xsf:property>
+				</xsf:fileProperties>
+			</xsf:file>
+			<xsf:file name="Submit3.xml"></xsf:file>
+		</xsf:files>
+	</xsf:package>
+	<xsf:importParameters enabled="yes"></xsf:importParameters>
+	<xsf:documentVersionUpgrade>
+		<xsf:useTransform transform="upgrade.xsl" minVersionToUpgrade="0.0.0.0" maxVersionToUpgrade="1.0.0.44"></xsf:useTransform>
+	</xsf:documentVersionUpgrade>
+	<xsf:extensions>
+		<xsf:extension name="SolutionDefinitionExtensions">
+			<xsf2:solutionDefinition runtimeCompatibility="client server" allowClientOnlyCode="no" runtimeCompatibilityURL="http://portal.sample.com/_vti_bin/FormsServices.asmx" verifyOnServer="yes">
+				<xsf2:offline openIfQueryFails="yes" cacheQueries="yes"></xsf2:offline>
+				<xsf2:server isPreSubmitPostBackEnabled="no" isMobileEnabled="no" formLocale="en-US"></xsf2:server>
+				<xsf2:managedCode language="VisualBasic" version="2.0" enabled="yes" projectPath="C:\Project\LoanApplication\LoanApplication\LoanApplication.vbproj"></xsf2:managedCode>
+				<xsf2:listPropertiesExtension>
+					<xsf2:fieldsExtension>
+						<xsf2:fieldExtension columnId="e7ed69f1-17b7-4fea-a97f-59698d9264ad" readWrite="no" columnName="{09087484-263E-4099-96D5-237D3C4C89BF}"></xsf2:fieldExtension>
+						<xsf2:fieldExtension columnId="{4a722dd4-d406-4356-93f9-2550b8f50dd0}" readWrite="no" columnName="{A2E22294-CC2B-443A-B17F-B7B7C9423E8A}"></xsf2:fieldExtension>
+						<xsf2:fieldExtension columnId="ed524a63-9941-4974-80a2-c5cf94b0d56b" readWrite="no" columnName="{D49DEB89-0BF4-4DF8-BEF2-5D01B5565459}"></xsf2:fieldExtension>
+						<xsf2:fieldExtension columnId="" readWrite="no" columnName="{24F7A229-8FAF-4A59-9E70-B63079369CB1}"></xsf2:fieldExtension>
+						<xsf2:fieldExtension columnId="" readWrite="no" columnName="{020BD16E-C868-4D7A-A575-3D93A02B0924}"></xsf2:fieldExtension>
+					</xsf2:fieldsExtension>
+				</xsf2:listPropertiesExtension>
+				<xsf2:dataConnections>
+					<xsf2:webServiceAdapterExtension ref="WS Submit" trackDataSetChanges="no">
+						<xsf2:connectoid connectionLinkType="relative" source="bankdataconnections/LoanApp.udcx" siteCollection="http://portal.sample.com/" name="WS Submit"></xsf2:connectoid>
+					</xsf2:webServiceAdapterExtension>
+				</xsf2:dataConnections>
+				<xsf2:solutionPropertiesExtension branch="admin">
+					<xsf2:admin path="C:\Documents and Settings\Administrator.SAMPLE\Desktop\Loan Application.xsn" site="http://portal.sample.com/"></xsf2:admin>
+				</xsf2:solutionPropertiesExtension>
+			</xsf2:solutionDefinition>
+		</xsf:extension>
+	</xsf:extensions>
+	<xsf:views default="View 1">
+		<xsf:view name="View 1" caption="View 1">
+			<xsf:mainpane transform="view1.xsl"></xsf:mainpane>
+			<xsf:unboundControls>
+				<xsf:button name="CTRL10_5"></xsf:button>
+				<xsf:button name="CTRL11_5"></xsf:button>
+				<xsf:button name="CTRL13_5"></xsf:button>
+				<xsf:button name="btn_Managed"></xsf:button>
+				<xsf:button name="btnManaged"></xsf:button>
+			</xsf:unboundControls>
+		</xsf:view>
+	</xsf:views>
+	<xsf:applicationParameters application="InfoPath Design Mode">
+		<xsf:solutionProperties fullyEditableNamespace="http://schemas.microsoft.com/office/infopath/2003/myXSD/2007-01-21T17:56:39" scriptLanguage="managedCode" lastOpenView="view1.xsl" lastVersionNeedingTransform="1.0.0.44"></xsf:solutionProperties>
+	</xsf:applicationParameters>
+	<xsf:documentSchemas>
+		<xsf:documentSchema rootSchema="yes" location="http://schemas.microsoft.com/office/infopath/2003/myXSD/2007-01-21T17:56:39 myschema.xsd"></xsf:documentSchema>
+	</xsf:documentSchemas>
+	<xsf:fileNew>
+		<xsf:initialXmlDocument caption="LoanApplication" href="template.xml"></xsf:initialXmlDocument>
+	</xsf:fileNew>
+	<xsf:submit caption="Su&amp;bmit" disableMenuItem="no" onAfterSubmit="keepOpen" showStatusDialog="yes">
+		<xsf:webServiceAdapter wsdlUrl="" queryAllowed="no" submitAllowed="yes" name="WS Submit">
+			<xsf:operation name="" soapAction="" serviceUrl="">
+				<xsf:input source="Submit3.xml">
+					<xsf:partFragment match="/dfs:myFields/dfs:dataFields/tns:AddLoanApp/my:Loan" replaceWith="/my:Loan"></xsf:partFragment>
+				</xsf:input>
+			</xsf:operation>
+		</xsf:webServiceAdapter>
+	</xsf:submit>
+	<xsf:listProperties>
+		<xsf:fields>
+			<xsf:field name="SSN" columnName="{09087484-263E-4099-96D5-237D3C4C89BF}" node="/my:Loan/my:SSN" type="xsd:string"></xsf:field>
+			<xsf:field name="Last Name" columnName="{D49DEB89-0BF4-4DF8-BEF2-5D01B5565459}" node="/my:Loan/my:LastName" type="xsd:string"></xsf:field>
+			<xsf:field name="Income" columnName="{24F7A229-8FAF-4A59-9E70-B63079369CB1}" node="/my:Loan/my:Income" type="xsd:double"></xsf:field>
+			<xsf:field name="Loan Amt" columnName="{020BD16E-C868-4D7A-A575-3D93A02B0924}" node="/my:Loan/my:LoanAmt" type="xsd:double"></xsf:field>
+		</xsf:fields>
+	</xsf:listProperties>
+</xsf:xDocumentClass>

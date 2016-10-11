@@ -1,0 +1,11 @@
+bin\Debug\DocumentSectionFeature.dll
+bin\Debug\DocumentSectionFeature.pdb
+bin\Debug\DocumentSectionFeature.xml
+bin\Debug\Microsoft.SharePoint.Search.dll
+bin\Debug\Microsoft.SharePoint.Search.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DocumentSectionFeature.Resources.resources
+obj\Debug\DocumentSectionFeature.vbproj.GenerateResource.Cache
+obj\Debug\DocumentSectionFeature.dll
+obj\Debug\DocumentSectionFeature.xml
+obj\Debug\DocumentSectionFeature.pdb
